@@ -1,0 +1,57 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<settings>
+		<musicFolder></musicFolder>
+		<picturesFolder>http://www.spencer-tech.com/demos/mp3_player/pics/</picturesFolder>
+		<showPlaylist>true</showPlaylist>
+		<defaultCover>
+			<show>false</show>
+			<width>100</width>
+			<imageURL>cover.jpg</imageURL>
+		</defaultCover>
+		<logo>
+			<show>false</show>
+			<imageURL>logo.png</imageURL>
+			<href>http://www.spencer-tech.com</href>
+		</logo>
+		<button>
+			<show>false</show>
+			<text>album review</text>
+			<href>http://www.spencer-tech.com/my_scripts/mp3_player/</href>
+		</button>
+		<showBtnHtml>false</showBtnHtml>
+		<showBtnInfo>true</showBtnInfo>
+		<autoPlay>true</autoPlay>
+	</settings>
+
+	<song>
+		<artist>伽蓝尊者咒</artist>
+		<title>伽蓝尊者咒</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/伽蓝尊者咒.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+  <song>
+		<artist>问情</artist>
+		<title>问情</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/问情.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+<song>
+		<artist>五会念佛</artist>
+		<title>五会念佛</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/五会念佛--童音.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+<song>
+		<artist>大悲咒</artist>
+		<title>大悲咒</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/大悲咒(大悲咒教念海涛法师无伴奏).mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>	
+	</config>

@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<settings>
+		<musicFolder>http://www.zjvoc.com/imgWeb/mp3/</musicFolder>
+		<picturesFolder>http://www.spencer-tech.com/demos/mp3_player/pics/</picturesFolder>
+		<showPlaylist>false</showPlaylist>
+		<defaultCover>
+			<show>false</show>
+			<width>100</width>
+			<imageURL>cover.jpg</imageURL>
+		</defaultCover>
+		<logo>
+			<show>true</show>
+			<imageURL>logo.png</imageURL>
+			<href>http://www.spencer-tech.com</href>
+		</logo>
+		<button>
+			<show>true</show>
+			<text>album review</text>
+			<href>http://www.spencer-tech.com/my_scripts/mp3_player/</href>
+		</button>
+		<showBtnHtml>false</showBtnHtml>
+		<showBtnInfo>false</showBtnInfo>
+	</settings>
+
+	<song>
+		<artist>伽蓝尊者咒</artist>
+		<title>伽蓝尊者咒</title>
+		<length>253</length>
+		<fileName>伽蓝尊者咒.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+</config>

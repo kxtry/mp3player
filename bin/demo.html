@@ -1,0 +1,32 @@
+﻿<html>
+<body>
+	<div id="idBlockDemo2"> 		
+		<p>mp3 player demo container</p> 
+		<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p> 		
+	</div>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">	
+	var params = {	
+		bgcolor: "#AEE000",
+		play:true	,
+		menu:false,
+	};	
+	var flashvars = {	
+		//configURL: "http://www.spencer-tech.com/demos/mp3_player/demo2.xml"	
+		configURL: "my2.xml"	
+	};	
+	var attributes = { };	
+	swfobject.embedSWF("mp3player.swf", "idBlockDemo2", 400, 140, "9.0.115","expressInstall.swf", flashvars, params, attributes);	
+	
+	function play(c) {
+        var sound = swfobject.getObjectById("idBlockDemo2");
+        if (sound) {
+            //sound.SetVariable("f", "http://www.zjvoc.com/imgWeb/mp3/无量寿佛心咒.mp3");
+            //sound.GotoFrame(1);
+            sound.fscommand("play")
+        }
+    }
+	</script>
+	<input type="button" value="播放" onclick="play('msg.mp3')" />
+</body>
+</html>

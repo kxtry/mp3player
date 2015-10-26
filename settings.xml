@@ -1,0 +1,57 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<settings>
+		<musicFolder></musicFolder>
+		<picturesFolder>http://www.spencer-tech.com/demos/mp3_player/pics/</picturesFolder>
+		<showPlaylist>true</showPlaylist>
+		<defaultCover>
+			<show>false</show>
+			<width>100</width>
+			<imageURL>cover.jpg</imageURL>
+		</defaultCover>
+		<logo>
+			<show>false</show>
+			<imageURL>logo.png</imageURL>
+			<href>http://www.spencer-tech.com</href>
+		</logo>
+		<button>
+			<show>false</show>
+			<text>album review</text>
+			<href>http://www.spencer-tech.com/my_scripts/mp3_player/</href>
+		</button>
+		<showBtnHtml>true</showBtnHtml>
+		<showBtnInfo>true</showBtnInfo>
+		<autoPlay>true</autoPlay>
+	</settings>
+
+	<song>
+		<artist>bbbddd</artist>
+		<title>ccdd</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/%E4%BC%BD%E8%93%9D%E5%B0%8A%E8%80%85%E5%92%92.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+  <song>
+		<artist>bbbddd</artist>
+		<title>问情</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/问情.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+<song>
+		<artist>bbbddd</artist>
+		<title>五会念佛</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/五会念佛--童音.mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>
+<song>
+		<artist>bbbddd</artist>
+		<title>tttttt</title>
+		<length>253</length>
+		<fileName>http://www.zjvoc.com/imgWeb/mp3/大悲咒(大悲咒教念海涛法师无伴奏).mp3</fileName>
+		<cover>cover1.jpg</cover>
+	</song>	
+	</config>
